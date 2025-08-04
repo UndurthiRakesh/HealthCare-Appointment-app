@@ -38,7 +38,7 @@ const CarouselComponent = () => {
           <div className="legend">
             <h3>24/7 Emergency Care</h3>
             <p>
-              We are Providing 24/7 specility. without any distabance
+              We are Providing 24/7 specility. without any distabance.
             </p>
           </div>
         </div>
