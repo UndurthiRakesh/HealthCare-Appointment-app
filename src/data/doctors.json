@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Sneha Sharma",
+    "imageUrl": "https://res.cloudinary.com/dtge185n9/image/upload/v1754240325/Screenshot_2025-08-03_222709_hn9tef.png",
+    "speciality": "General Physician",
+    "experience": 3,
+    "location": "Chennai",
+    "availability": "Available every Day",
+    "availabilityInNumbers": [0, 1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": 2,
+    "name": "Dr. Rajeev Menon",
+    "imageUrl": "https://res.cloudinary.com/dtge185n9/image/upload/v1754240300/Screenshot_2025-08-03_222137_afplep.png",
+    "speciality": "Pediatrician",
+    "experience": 7,
+    "location": "Hyderabad",
+    "availability": "mon-fri",
+    "availabilityInNumbers": [1, 2, 3, 4, 5]
+  },
+  {
+    "id": 3,
+    "name": "Dr. Ayesha Khan",
+    "imageUrl": "https://res.cloudinary.com/dtge185n9/image/upload/v1754240340/Screenshot_2025-08-03_222503_qwylhx.png",
+    "speciality": "Orthopedics",
+    "experience": 8,
+    "location": "Bangalore",
+    "availability": "mon-tue",
+    "availabilityInNumbers": [1, 2]
+  },
+  {
+    "id": 4,
+    "name": "Dr. Amit Joshi",
+    "imageUrl": "https://randomuser.me/api/portraits/men/28.jpg",
+    "speciality": "Neurologist",
+    "experience": 10,
+    "location": "Delhi",
+    "availability": "fri-sat",
+    "availabilityInNumbers": [5, 6]
+  },
+  {
+    "id": 5,
+    "name": "Dr. Nisha Reddy",
+    "imageUrl": "https://res.cloudinary.com/dtge185n9/image/upload/v1754240285/Screenshot_2025-08-03_221544_w6aost.png",
+    "speciality": "Cardiology",
+    "experience": 22,
+    "location": "Mumbai",
+    "availability": "wed-thu",
+    "availabilityInNumbers": [3, 4]
+  },
+  {
+    "id": 6,
+    "name": "Dr. Arvind Iyer",
+    "imageUrl": "https://res.cloudinary.com/dtge185n9/image/upload/v1754240314/Screenshot_2025-08-03_222155_aes2tp.png",
+    "speciality": "Psychiatrist",
+    "experience": 4,
+    "location": "Kolkata",
+    "availability": "sat",
+    "availabilityInNumbers": [6]
+  },
+  {
+    "id": 7,
+    "name": "Dr. Priya Desai",
+    "imageUrl": "https://res.cloudinary.com/dtge185n9/image/upload/v1754240334/Screenshot_2025-08-03_222626_n6feks.png",
+    "speciality": "General Physician",
+    "experience": 11,
+    "location": "Ahmedabad",
+    "availability": "fri-sun",
+    "availabilityInNumbers": [0, 5, 6]
+  }
+]

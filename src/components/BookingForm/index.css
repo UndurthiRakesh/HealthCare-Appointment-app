@@ -1,0 +1,50 @@
+.booking-form {
+  margin-top: 24px;
+  background-image: url("https://res.cloudinary.com/dtge185n9/image/upload/v1754235571/Screenshot_2025-08-03_210843_hi6aa8.png");
+  padding: 20px;
+  border-radius: 10px;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.booking-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.booking-form input {
+  padding: 8px;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.booking-form button {
+  padding: 8px 20px;
+  background-color: #0471dd;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.booking-form button:hover {
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px 3px rgba(194, 237, 194, 0.619);
+}
+.after-appointment{
+  text-align: center;
+}
+.book-appointment-head{
+  font-family: sans-serif;
+}
+.error{
+  color: rgb(83, 22, 22);
+  font-family: "Roboto";
+  font-weight: bold;
+}

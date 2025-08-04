@@ -1,0 +1,146 @@
+.doctor-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 20px;
+}
+
+.search-container {
+  width: 300px;
+  background-image: url("https://res.cloudinary.com/dtge185n9/image/upload/v1754175710/Screenshot_2025-08-03_043123_jw8muz.png");
+  background-size: cover;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 70%;
+  padding: 8px;
+  border: 2px solid #888;
+  border-right: none;
+  border-radius: 8px 0 0 8px;
+  background-color: #fff;
+}
+
+.search-icon {
+  padding: 8px;
+  background-color: #fff;
+  border: 2px solid #888;
+  border-left: none;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+.filter-container {
+  display: flex;
+  align-items: center;
+  margin: 20px 0 10px 0;
+}
+
+.filter-icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.filter-text {
+  font-weight: bold;
+  color: #333;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-filter-container {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clear-container {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.clear {
+  cursor: pointer;
+  color: #007BFF;
+  text-decoration: underline;
+}
+
+.doctor-list {
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background-image: url("https://res.cloudinary.com/dtge185n9/image/upload/v1754172052/Screenshot_2025-08-03_033025_dcb685.png");
+  background-size: cover;
+  border-radius: 12px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.doctor-card {
+  width: 200px;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.9);
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+  list-style-type: none;
+}
+
+.doctor-card:hover {
+  transform: scale(1.05);
+}
+
+.doctor-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.doctor-info {
+  margin-top: 10px;
+}
+
+.No-Result-found-container {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.not-found-img {
+  width: 300px;
+  height: auto;
+}
+
+.loader {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
